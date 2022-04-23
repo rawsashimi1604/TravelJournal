@@ -32,6 +32,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid #eceaf3;
 }
 
 .entry img {
@@ -67,6 +69,19 @@ body {
     text-decoration: underline;
 }
 
+.entry-contents h1 {
+    margin-bottom: 20px;
+}
+
+.entry-contents h2 {
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.entry-contents p {
+    font-size: 15px;
+}
 
 
 
