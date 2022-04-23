@@ -1,7 +1,7 @@
 import React from "react"
 import { MdLocationOn } from "react-icons/md"
 
-export default function Entry() {
+export default function Entry(props) {
 
     const iconStyle = {
         fontSize: "20px",
@@ -19,7 +19,7 @@ export default function Entry() {
                         style={iconStyle}
                     />
                     <span>JAPAN</span>
-                    <a href="https://maps.google.com/">View on google maps</a>
+                    <a href="https://maps.google.com/">View on Wikipedia</a>
                 </div>
 
                 <h1>Mount Fuji</h1>
