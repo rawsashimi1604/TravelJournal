@@ -4,6 +4,13 @@ import Entry from "./components/Entry"
 
 import data from "./data"
 
+// Parse data from data.js
+const newData = data.map(data => {
+    return <Entry
+        data={data}
+    />
+})
+
 
 export default function App() {
     return (
@@ -11,7 +18,7 @@ export default function App() {
             <Navbar/>
 
             <main className="main">
-                <Entry/>     
+                {newData}  
             </main>
             
         </div>

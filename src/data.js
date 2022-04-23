@@ -12,7 +12,7 @@ export default [
     },
 
     {
-        img: "Syney_Opera_House.png",
+        img: "Sydney_Opera_House.png",
         location: "https://en.wikipedia.org/wiki/Sydney_Opera_House",
         title: "Sydney Opera House",
         country: "Australia",
