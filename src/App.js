@@ -7,6 +7,7 @@ import data from "./data"
 // Parse data from data.js
 const newData = data.map(data => {
     return <Entry
+        key={data.id}
         data={data}
     />
 })

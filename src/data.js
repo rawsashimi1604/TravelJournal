@@ -1,5 +1,6 @@
 export default [
-    {
+    {   
+        id: 1,
         img: "Mount_Fuji.png",
         location: "https://en.wikipedia.org/wiki/Mount_Fuji",
         title: "Mount Fuji",
@@ -11,7 +12,8 @@ export default [
         description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."
     },
 
-    {
+    {   
+        id: 2,
         img: "Sydney_Opera_House.png",
         location: "https://en.wikipedia.org/wiki/Sydney_Opera_House",
         title: "Sydney Opera House",
@@ -23,7 +25,8 @@ export default [
         description: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings."
     },
 
-    {
+    {   
+        id: 3,
         img: "Geirangerfjord.png",
         location: "https://en.wikipedia.org/wiki/Geirangerfjord",
         title: "Geirangerfjord",

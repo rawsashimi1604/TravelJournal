@@ -3,15 +3,26 @@ import { MdLocationOn } from "react-icons/md"
 
 export default function Entry(props) {
 
+    function imageOnHover() {
+        console.log("you hovered on an image")
+    }
+    
+
+
     const iconStyle = {
         fontSize: "20px",
         color: "#F55A5A",
     }
 
     return (
-        <div className="entry">
+        <div 
+            className="entry"
+        >
 
-            <img src={`./images/${props.data.img}`}></img>
+            <img 
+                src={`./images/${props.data.img}`}
+                onMouseOver={imageOnHover}
+            ></img>
 
             <div className="entry-contents">
                 <div className="entry-location">
